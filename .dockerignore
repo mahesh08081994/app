@@ -1,0 +1,12 @@
+# Never bake these into the image -- secrets and data are mounted as
+# volumes at runtime instead (see docker-compose.yml)
+.env
+.env.backup
+venv/
+chroma_db/
+logs/
+data/
+__pycache__/
+*.pyc
+.git/
+deploy/

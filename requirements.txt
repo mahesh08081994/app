@@ -1,0 +1,6 @@
+ollama
+chromadb
+imap-tools
+python-dotenv
+flask
+gunicorn
