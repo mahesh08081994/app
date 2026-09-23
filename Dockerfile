@@ -12,7 +12,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Now the application code
-COPY app/ ./app/
 COPY main.py review_app.py build_index.py ./
 
 # Overridden per-service in docker-compose.yml -- this is just a sane default
